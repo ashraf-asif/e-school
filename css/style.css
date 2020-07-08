@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.5px;
+}
+
+.container{
+  margin-bottom: 100px;
+}
+
+p{
+  color: gray;
+  font-weight: 500;
+}
+
+h4{
+  font-weight: 700;
+}
+
+.btn{
+  color: white;
+  font-weight: 500;
+  background: #864dce;
+  padding: 5px 25px;
+  border-radius: 20px;
+}
+
+.btn:hover{
+  color: white;
+  background: #5830a0;
+}
+
+/* header */
+  /* navbar */
+.navbar{
+  margin-bottom: 50px;
+}
+
+.navbar-brand{
+  width: 25%;
+  color: #864dce;
+}
+
+.nav-item{
+  font-weight: 600;
+  margin-left: 10px;
+  text-align: center;
+}
+  /* navbar */
+  /* banner */
+.banner{
+  padding: 20px;
+}
+
+.red-text{
+  color: red;
+}
+
+.banner-heading{
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.banner-heading span{
+  color: #864dce;
+}
+
+.banner-text{
+  color: gray;
+  padding: 20px 0;
+}
+  /* banner */
+/* header */
+
+/* main */
+  /* students section */
+.students{
+  background: #fbf7ff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.students img{
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.focused-book{
+  background: white;
+  box-shadow: 0 0 40px lightgray;
+}
+  /* students section */
+  /* online courses section */
+.section-heading{
+  text-align: center;
+  font-weight: 800;
+  font-size: 35px;
+  margin-bottom: 80px;
+}
+
+.card{
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 40px lightgray;
+}
+
+.card-img-top{
+  padding: 20px;
+}
+
+.card-footer{
+  border-top: none;
+  background: transparent;
+}
+
+.card-footer img{
+  height: 25px;
+}
+  /* online courses section */
+  /* teachers section */
+.teacher-img{
+  border-radius: 40px;
+  overflow: hidden;
+}
+  /* teachers section */
+  /* testimonial section */
+.testimonial-img{
+  height: 100px;
+  margin: 20px;
+}
+  /* testimonial section */
+/* main */
+
+/* footer */
+footer{
+  background: #003152;
+}
+
+.footer-container{
+  background: #003152;
+  margin-bottom: 0;
+  padding: 60px 0;
+  color: white;
+}
+
+.footer-text{
+  color: lightgray;
+  font-weight: 400;
+  padding: 0px 20px;
+}
+
+.footer-link{
+  color: lightgray;
+  padding: 20px 0;
+}
+
+.footer-link:hover{
+  text-decoration: none;
+  color: lightgray;
+}
+
+.copyright{
+  color:gray;
+  padding: 20px;
+}
+/* footer */
+
+/* media queries */
+@media only screen and (max-width:768px){
+  .navbar-brand{
+    width: 50%;
+  }
+  .banner{
+    text-align: center;
+  }
+}
+/* media queries */
