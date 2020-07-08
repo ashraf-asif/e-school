@@ -122,6 +122,11 @@ h4{
   border-radius: 40px;
   overflow: hidden;
 }
+
+.teacher-social{
+  text-decoration: none;
+  color: #000;
+}
   /* teachers section */
   /* testimonial section */
 .testimonial-img{
